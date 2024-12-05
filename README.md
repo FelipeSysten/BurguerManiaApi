@@ -61,7 +61,7 @@ Este projeto utiliza as seguintes tecnologias:
       ```bash
       dotnet run
 
-A API estará acessível em [https://localhost:5001 ou http://localhost:5000.](https://localhost:7078/swagger/index.html)
+A API estará acessível em  (https://localhost:7078/swagger/index.html)
 
 ---
 
