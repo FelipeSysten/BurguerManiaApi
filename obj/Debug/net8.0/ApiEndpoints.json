@@ -1,0 +1,362 @@
+[
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.CategoryController",
+    "Method": "BusacarCategoryPorId",
+    "RelativePath": "api/Category/BuscarCategoryPorId/{idCategory}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategory",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.CategoryModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.CategoryController",
+    "Method": "BuscarCategoryPorIdProduct",
+    "RelativePath": "api/Category/BuscarCategoryPorIdProduct/{idProduct}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduct",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.ProductsModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.CategoryController",
+    "Method": "ListarCategorys",
+    "RelativePath": "api/Category/ListarCategorys",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApiBurguerMania.Models.CategoryModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.OrderController",
+    "Method": "BusacarOrderPorId",
+    "RelativePath": "api/Order/BuscarOrderPorId/{idOrder}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idOrder",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.OrderModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.OrderController",
+    "Method": "BuscarOrderPorIdProduct",
+    "RelativePath": "api/Order/BuscarOrderPorIdProduct/{idProduct}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduct",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.OrderModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.OrderController",
+    "Method": "ListarOrder",
+    "RelativePath": "api/Order/ListarOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApiBurguerMania.Models.OrderModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.ProductController",
+    "Method": "BusacarProductPorId",
+    "RelativePath": "api/Product/BuscarProductPorId/{idProduct}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduct",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.ProductsModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.ProductController",
+    "Method": "BuscarProductPorIdOrder",
+    "RelativePath": "api/Product/BuscarProductPorIdOrder/{idOrder}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idOrder",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.ProductsModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.ProductController",
+    "Method": "ListarProducts",
+    "RelativePath": "api/Product/ListarProducts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApiBurguerMania.Models.ProductsModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.StatusController",
+    "Method": "BusacarStatusPorId",
+    "RelativePath": "api/Status/BuscarStatusPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idStatus",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.StatusModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.StatusController",
+    "Method": "BuscarUtatusPorIdOrder",
+    "RelativePath": "api/Status/BuscarStatusPorIdOrder/{idOrder}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idOrder",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.StatusModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.StatusController",
+    "Method": "ListarStatus",
+    "RelativePath": "api/Status/ListarStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApiBurguerMania.Models.StatusModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.UserController",
+    "Method": "BusacarUserPorId",
+    "RelativePath": "api/User/BuscarUserPorId/{idUser}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUser",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.UserModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.UserController",
+    "Method": "BuscarUserPorIdOrder",
+    "RelativePath": "api/User/BuscarUserPorIdOrder/{idOrder}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idOrder",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[WebApiBurguerMania.Models.UserModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApiBurguerMania.Controllers.UserController",
+    "Method": "ListarUser",
+    "RelativePath": "api/User/ListarUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApiBurguerMania.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApiBurguerMania.Models.UserModel, WebApiBurguerMania, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
